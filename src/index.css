@@ -1,3 +1,21 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Bree+Serif&family=Caramel&family=Fasthand&family=Gentium+Book+Plus&family=Josefin+Sans:ital,wght@0,400;1,300&family=Montserrat:wght@400;500&family=Oswald:wght@300;400&family=Outfit:wght@200;300;400;500;600;700;800;900&family=Piazzolla:ital,opsz,wght@1,8..30,300;1,8..30,400;1,8..30,600&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

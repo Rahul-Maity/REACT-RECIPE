@@ -32,7 +32,7 @@ const Popular = () => {
        
         
       <Wrapper >
-        <h3>Popular picks</h3>
+        <h3>POPULAR PICKS</h3>
 
         <Splide options={{
           perPage: 4,
@@ -69,9 +69,21 @@ const Wrapper = styled.div`
 margin: -6.600000000000001rem 0rem;
 
 
+h3{
+  color:grey;
+  letter-spacing:2px;
+
+  position:relative;
+
+
+    text-align:center;
+  
+  }
+
+
 `;
 const Card = styled.div`
-top:0%;
+top:-10%;
 min-height:20rem;
 min-width:20rem;
 padding:3rem;

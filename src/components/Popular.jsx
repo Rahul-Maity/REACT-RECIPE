@@ -67,23 +67,28 @@ const Popular = () => {
 
 const Wrapper = styled.div`
 margin: -6.600000000000001rem 0rem;
+
+
 `;
 const Card = styled.div`
-margin-top: -60px;
+top:0%;
 min-height:20rem;
 min-width:20rem;
 padding:3rem;
 overflow:hidden;
 position:relative;
 p{
-  position:relative;
-  top:60%;
+  position:absolute;
+  z-index:3;
+  top:50%;
+  left:20%;
+  color:white;
   overflow:hidden;
   font-family:Verdana;
  
-  font-size:0.8rem;
+  font-size:0.9rem;
   font-weight:500;
-  color:rgb(128,128,128);
+
 }
 img{
 
